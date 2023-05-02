@@ -1,0 +1,20 @@
+script que se va a apendear de la cabecera
+hay 4 tipos:
+usuario sin conectarse
+usuario conectado
+administrador
+empleado
+
+también para el pie de página, sólo un tipo
+se añade primero la cabecera, después se trabaja con lo demás
+
+hacer div al cual le apendearemos un "innerHTML" con la estructura de los elementos que queremos añadir
+
+document:
+getElementById
+createElement
+
+element:
+id
+innerhtml
+appendChild
