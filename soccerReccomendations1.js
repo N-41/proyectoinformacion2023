@@ -13,7 +13,7 @@ soccer1Div.innerHTML = `
             <div class="row">
                 <div class="col-2 offset-md-1">
                     <div class="card">
-                        <a href="#"><img src="pinkBall.jpg" class="d-block w-100"></a>
+                        <a href="#"><img src="pinkBall.jpg" class="card-img-top cardImg"></a>
                         <div class="card-body text-center">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -23,7 +23,7 @@ soccer1Div.innerHTML = `
                 </div>
                 <div class="col-2">
                     <div class="card">
-                        <a href="producto.html"><img src="goldenBall.jpg" class="d-block w-100"></a>
+                        <a href="producto.html"><img src="goldenBall.jpg" class="card-img-top cardImg"></a>
                         <div class="card-body text-center">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -33,7 +33,7 @@ soccer1Div.innerHTML = `
                 </div>
                 <div class="col-2">
                     <div class="card">
-                        <a href="#"><img src="blueBall.jpg" class="d-block w-100"></a>
+                        <a href="#"><img src="blueBall.jpg" class="card-img-top cardImg"></a>
                         <div class="card-body text-center">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -43,7 +43,7 @@ soccer1Div.innerHTML = `
                 </div>
                 <div class="col-2">
                     <div class="card">
-                        <a href="#"><img src="whiteBall.jpg" class="d-block w-100"></a>
+                        <a href="#"><img src="whiteBall.jpg" class="card-img-top cardImg"></a>
                         <div class="card-body text-center">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -53,7 +53,7 @@ soccer1Div.innerHTML = `
                 </div>
                 <div class="col-2">
                     <div class="card" width="2rem">
-                        <a href="#"><img src="soccerball.jpg" class="d-block w-100"></a>
+                        <a href="#"><img src="soccerball.jpg" class="card-img-top cardImg"></a>
                         <div class="card-body text-center">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>

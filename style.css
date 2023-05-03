@@ -8,6 +8,14 @@ p{
     font-size:1.12rem;
 }
 
+.productBody{
+    background:white;
+}
+
+.productBody p{
+    color:black;
+}
+
 .outsideP{
     text-align:left;
     font-weight:bold;
@@ -23,8 +31,10 @@ footer b{
 }
 
 .cardImg{
-    height:auto;
+    height:12rem;
     width:12rem;
+    border-radius:10%;
+    object-fit:fill;
 }
 
 .card-text{
@@ -36,7 +46,7 @@ footer b{
     color:black;
 }
 
-#mainBody{
+body{
     background: linear-gradient(to right, #8c52ff , #00bf63);
 }
 
@@ -49,32 +59,33 @@ footer b{
 nav button{
     background: linear-gradient(to right, white, gray);
     border: none;
-    padding: .2rem;
+    padding: .2rem .7rem;
     border-radius: 2rem;
     text-align: center;
     text-decoration: none;
+    font-size:1.2rem;
     display: inline-block;
     margin: .3rem .5rem;
 }
 
 .productButton{
     color:black;
+    background:yellow;
     border: none;
     padding: .4rem;
     border-radius: 4rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin-left: .2rem;
-    font-size:2.3rem;
+    font-size:1.6rem;
     font-weight:bold;
-    left:2rem;
+    padding:0.5rem 1.2rem;
 }
 
 .productSize{
-    background: linear-gradient(to right, white, gray);
+    background: linear-gradient(to right, white);
+    border:none;
     color:black;
-    border: none;
     padding: .2rem;
     text-align: center;
     text-decoration: none;
@@ -90,17 +101,15 @@ nav button{
     text-align:center;
     margin-top:0.5rem;
     font-weight:bold;
-    font-size:2rem;
+    font-size:1.5rem;
     color:white;
     margin-left:0.8rem;
-    padding-top:0.4rem;
-    padding-bottom:0.4rem;
+    padding:0.4rem 0.2rem;
 }
 
 .selected{
     background:black;
     color:white;
-    border:2px solid white;
 }
 
 .selected p{
@@ -108,13 +117,13 @@ nav button{
 }
 
 #shopcart{
-    width:3.4rem;
-    height:3.4rem;
+    width:2.2rem;
+    height:2.2rem;
     border-radius:50%;
 }
 
 #mainHeader{
-    font-size: 1.8rem;
+    font-size: 1.4rem;
 }
 
 .banner{

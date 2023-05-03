@@ -10,7 +10,7 @@ sportsDiv.innerHTML = `
             <h5 class="card-title">Soccer</h5>
             <p />
             <p class="card-text">Calzado</p>
-            <p class="card-text">Balones</p>
+            <p class="card-text">Equipo (+ balones)</p>
             <p class="card-text">Ropa</p>
             <p class="card-text">Accesorios</p>
             </div>
@@ -23,7 +23,7 @@ sportsDiv.innerHTML = `
             <h5 class="card-title">Basquetbol</h5>
             <p />
             <p class="card-text">Calzado</p>
-            <p class="card-text">Balones</p>
+            <p class="card-text">Equipo (+ balones)</p>
             <p class="card-text">Ropa</p>
             <p class="card-text">Accesorios</p>
             </div>
@@ -36,9 +36,9 @@ sportsDiv.innerHTML = `
             <h5 class="card-title">Tennis</h5>
             <p />
             <p class="card-text">Calzado</p>
-            <p class="card-text">Bolas</p>
+            <p class="card-text">Bolas y raquetas</p>
             <p class="card-text">Ropa</p>
-            <p class="card-text">Raquetas</p>
+            <p class="card-text">Accesorios</p>
             </div>
         </div>
     </div>
@@ -49,9 +49,8 @@ sportsDiv.innerHTML = `
             <h5 class="card-title">Beisból</h5>
             <p />
             <p class="card-text">Calzado</p>
-            <p class="card-text">Bolas</p>
-            <p class="card-text">Ropa</p>
             <p class="card-text">Equipo</p>
+            <p class="card-text">Ropa</p>
             <p class="card-text">Accesorios</p>
             </div>
         </div>
@@ -62,6 +61,7 @@ sportsDiv.innerHTML = `
             <div class="card-body text-center justify-content-center">
             <h5 class="card-title">Natación</h5>
             <p />
+            <p class="card-text">Calzado</p>
             <p class="card-text">Equipo</p>
             <p class="card-text">Trajes</p>
             <p class="card-text">Accesorios</p>
