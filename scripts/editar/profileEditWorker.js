@@ -30,7 +30,7 @@ profileEditDiv.innerHTML = `
         </select><br>
         </div>
         <div class="col-3">
-            <img src="userprofile.png" width="262" height="262">
+            <img src="img/fotos_de_perfil/userprofile.png" width="262" height="262">
         </div>
     </div>
     <div class="row">

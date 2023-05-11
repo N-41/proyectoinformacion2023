@@ -11,7 +11,7 @@ productEditDiv.innerHTML = `
 </div>
 <div class="row">
     <div class="col-3 offset-md-4">
-        <img src="goldenBall.jpg" class="d-block w-100">
+        <img src="img/productos/goldenBall.jpg" class="d-block w-100">
     </div>
 </div>
 <form action="" method="POST">
@@ -32,10 +32,10 @@ productEditDiv.innerHTML = `
             <input type="text" name="Descripción" height="4rem"><br>
             <label for="Tallas Disponibles"">Tallas Disponibles</label><br>
             <div class="DivDeTallas">
-            <input type="text" name="t:1-1" clasS="t1" placeholder="XS" width="0.5rem">   <input type="text" name="t:1-2" clasS="t1" placeholder="Xtra Small"><br>
-            <input type="text" name="t:2-1" clasS="t2" placeholder="S" width="0.5rem">   <input type="text" name="t:2-2" clasS="t1" placeholder="Small"><br>
-            <input type="text" name="t:3-1" clasS="t3" placeholder="M" width="0.5rem">   <input type="text" name="t:3-2" clasS="t1" placeholder="Medium"><br>
-            <input type="text" name="t:4-1" clasS="t4" placeholder="L" width="0.5rem">   <input type="text" name="t:4-2" clasS="t1" placeholder="Large"><br>
+            <input type="text" name="t:1-1" clasS="t1" placeholder="XS" size="2">   <input type="text" name="t:1-2" clasS="t1" placeholder="Xtra Small"><br>
+            <input type="text" name="t:2-1" clasS="t2" placeholder="S" size="2">   <input type="text" name="t:2-2" clasS="t1" placeholder="Small"><br>
+            <input type="text" name="t:3-1" clasS="t3" placeholder="M" size="2">   <input type="text" name="t:3-2" clasS="t1" placeholder="Medium"><br>
+            <input type="text" name="t:4-1" clasS="t4" placeholder="L" size="2">   <input type="text" name="t:4-2" clasS="t1" placeholder="Large"><br>
             </div>
         </div>
         <div class="col-4 offset-md-1" style="text-align:left;">
@@ -54,9 +54,9 @@ productEditDiv.innerHTML = `
             <input type="number" name="Promocion" id="PromocionNumero" width="0.5rem" placeholder="20">%<input type="checkbox" id="PromocionBandera" value="PromocionBandera"><br>
             <label for="DisponibilidadDeTallas">Disponibilidad de Tallas</label><br>
             <input type="number" name="t:1-3" clasS="t1" min="0" placeholder="11"><br>
-            <input type="number" name="t:2-3" clasS="t2" min="0" placeholder="11"><br>
-            <input type="number" name="t:3-3" clasS="t3" min="0" placeholder="11"><br>
-            <input type="number" name="t:4-3" clasS="t4" min="0" placeholder="11"><br>
+            <input type="number" name="t:2-3" clasS="t2" min="0" placeholder="17"><br>
+            <input type="number" name="t:3-3" clasS="t3" min="0" placeholder="7"><br>
+            <input type="number" name="t:4-3" clasS="t4" min="0" placeholder="8"><br>
             <button type="submit" class="blackSquareButton">Guardar</button>
         </div>
     </div>

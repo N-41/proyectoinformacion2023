@@ -3,7 +3,7 @@ adminHeaderDiv.id = "adminHeader";
 adminHeaderDiv.innerHTML = `
 <div class="container-fluid" style="background: linear-gradient(to right, #cdffd8 , #94b9ff);"><nav class="navbar navbar-lg">
     <a class="navbar-brand" href="index.html">
-        <img src="logo.png" width="28" height="28" alt="">
+        <img src="img/adicional/logo.png" width="28" height="28" alt="">
     </a>
     <a class="nav-item" href="#">Productos</a>
     <a class="nav-item" href="#">Marcas</a>
@@ -13,14 +13,14 @@ adminHeaderDiv.innerHTML = `
         Volver a
         </a>
         <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="index.html">index.html</a></li>
-        <li><a class="dropdown-item" href="deporteFutbol.html">deporteFutbol.html</a></li>
-        <li><a class="dropdown-item" href="marcaNike.html">marcaNike.html</a></li>
-        <li><a class="dropdown-item" href="producto.html">producto.html</a></li>
+        <li><a class="dropdown-item" href="../../index.html">index.html</a></li>
+        <li><a class="dropdown-item" href="../../deporteFutbol.html">deporteFutbol.html</a></li>
+        <li><a class="dropdown-item" href="../../marcaNike.html">marcaNike.html</a></li>
+        <li><a class="dropdown-item" href="../../producto.html">producto.html</a></li>
         </ul>
     </a>
-    <a href="#"><img src="adminprofile.png" class="shopcart"></img></a>
-    <a href="#"><img src="cart.png" class="shopcart"></img></a>
+    <a href="#"><img src="img/fotos_de_perfil/adminprofile.png" class="shopcart"></img></a>
+    <a href="#"><img src="img/adicional/cart.png" class="shopcart"></img></a>
 </nav></div>
 <p></p>
 `;

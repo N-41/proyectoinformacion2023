@@ -3,8 +3,8 @@ nikeBannerDiv.id = "nikeBanner";
 nikeBannerDiv.innerHTML = `
 <p />
 <div class="row">
-    <div class="col-10 offset-md-1">
-        <img src="nikeBig.jpg" class="banner" alt="nike">
+    <div class="col-8 offset-md-2">
+        <img src="img/marcas/nikeBig.jpg" class="d-block w-100" alt="nike" height="300">
     </div>
 </div>
 `;

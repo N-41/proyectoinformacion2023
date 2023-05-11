@@ -8,7 +8,7 @@ reccomendedSliderDiv.innerHTML = `
             <div class="row">
                 <div class="col-2 offset-md-2">
                     <div class="card" style="width: 12rem;">
-                        <a href="#"><img src="soccerball.jpg" class="card-img-top cardImg" alt="soccer ball black and white"></a>
+                        <a href="#"><img src="img/productos/soccerball.jpg" class="card-img-top cardImg" alt="soccer ball black and white"></a>
                         <div class="card-body text-center justify-content-center">
                         <p class="card-text">Balón de futbol negro y blanco 63cm</p>
                         <a href="#" class="btn btn-warning">$238</a>
@@ -17,7 +17,7 @@ reccomendedSliderDiv.innerHTML = `
                 </div>
                 <div class="col-2">
                     <div class="card" style="width: 12rem;">
-                        <a href="#"><img src="basketball-ball.jpg" class="card-img-top cardImg" alt="basketball ball"></a>
+                        <a href="#"><img src="img/productos/basketball-ball.jpg" class="card-img-top cardImg" alt="basketball ball"></a>
                         <div class="card-body text-center justify-content-center">
                         <p class="card-text">Balón de baloncesto Talla 7 naranja</p>
                         <a href="#" class="btn btn-warning">$170</a>
@@ -26,7 +26,7 @@ reccomendedSliderDiv.innerHTML = `
                 </div>
                 <div class="col-2">
                     <div class="card" style="width: 12rem;">
-                        <a href="#"><img src="hoodie.jpg" class="card-img-top cardImg" alt="Sudadera roja"></a>
+                        <a href="#"><img src="img/productos/hoodie.jpg" class="card-img-top cardImg" alt="Sudadera roja"></a>
                         <div class="card-body text-center justify-content-center">
                         <p class="card-text">Sudadera fitness adulta roja</p>
                         <a href="#" class="btn btn-warning">$90</a>
@@ -35,7 +35,7 @@ reccomendedSliderDiv.innerHTML = `
                 </div>
                 <div class="col-2">
                     <div class="card" style="width: 12rem;">
-                        <a href="#"><img src="kayakPaddle.jpg" class="card-img-top cardImg" alt="remo de kayak"></a>
+                        <a href="#"><img src="img/productos/kayakPaddle.jpg" class="card-img-top cardImg" alt="remo de kayak"></a>
                         <div class="card-body text-center justify-content-center">
                         <p class="card-text">Remo para Kayak de madera 2m</p>
                         <a href="#" class="btn btn-warning">$350</a>

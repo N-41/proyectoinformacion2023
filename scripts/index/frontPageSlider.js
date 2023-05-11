@@ -13,7 +13,7 @@ frontPageSliderDiv.innerHTML = `
       <div class="carousel-item active">
         <div class="col-6">
           <a href="#">
-            <img src="sold.jpg" class="d-block w-100" style="height: 442px" alt="sold.jpg">
+            <img src="img/adicional/sold.jpg" class="d-block w-100" style="height: 442px" alt="sold.jpg">
           </a>
         </div>
         <div class="col-4">
@@ -22,12 +22,12 @@ frontPageSliderDiv.innerHTML = `
       </div>
       <div class="carousel-item">
         <a href="#">
-          <img src="sale.png" class="d-block w-100" alt="sale.png">
+          <img src="img/adicional/sale.png" class="d-block w-100" alt="sale.png">
         </a>
       </div>
       <div class="carousel-item">
         <a href="#">
-          <img src="futbol.jpeg" class="d-block w-100" alt="futbol.jpeg">
+          <img src="img/adicional/futbol.jpeg" class="d-block w-100" alt="futbol.jpeg">
         </a>
       </div>
     </div>

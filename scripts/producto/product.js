@@ -4,7 +4,7 @@ productDiv.innerHTML = `
 <p />
 <div class="row">
     <div class="col-5 offset-md-1 container-fluid">
-        <img src="goldenBall.jpg" style="width:95%; height:auto";>
+        <img src="img/productos/goldenBall.jpg" style="width:95%; height:auto";>
         <p />
         <p style="font-size:1.5rem; text-align:right; margin-right:5%">Descripción</p>
         <p style="text-align:right; margin-right:5%">El veloz murciélago hindú comía feliz cardillo y kiwi.</p>

@@ -5,7 +5,7 @@ sportsDiv.innerHTML = `
 <div class="row">
     <div class="col-2 offset-md-1">
         <div class="card" style="width: 12rem;">
-            <a href="deporteFutbol.html"><img src="soccerPlayer.jpg" class="card-img-top cardImg" alt="futbol"></a>
+            <a href="deporteFutbol.html"><img src="img/five/soccerPlayer.jpg" class="card-img-top cardImg" alt="futbol"></a>
             <div class="card-body text-center justify-content-center">
             <h5 class="card-title">Soccer</h5>
             <p />
@@ -18,7 +18,7 @@ sportsDiv.innerHTML = `
     </div>
     <div class="col-2">
         <div class="card" style="width: 12rem;">
-            <a href="#"><img src="basketballPlayer.jpg" class="card-img-top cardImg" alt="basquetbol"></a>
+            <a href="#"><img src="img/five/basketballPlayer.jpg" class="card-img-top cardImg" alt="basquetbol"></a>
             <div class="card-body text-center justify-content-center">
             <h5 class="card-title">Basquetbol</h5>
             <p />
@@ -31,7 +31,7 @@ sportsDiv.innerHTML = `
     </div>
     <div class="col-2">
         <div class="card" style="width: 12rem;">
-            <a href="#"><img src="tennisPlayer.jpg" class="card-img-top cardImg" alt="tenis"></a>
+            <a href="#"><img src="img/five/tennisPlayer.jpg" class="card-img-top cardImg" alt="tenis"></a>
             <div class="card-body text-center justify-content-center">
             <h5 class="card-title">Tennis</h5>
             <p />
@@ -44,7 +44,7 @@ sportsDiv.innerHTML = `
     </div>
     <div class="col-2">
         <div class="card" style="width: 12rem;">
-            <a href="#"><img src="baseballPlayer.jpg" class="card-img-top cardImg" alt="beisbol"></a>
+            <a href="#"><img src="img/five/baseballPlayer.jpg" class="card-img-top cardImg" alt="beisbol"></a>
             <div class="card-body text-center justify-content-center">
             <h5 class="card-title">Beisból</h5>
             <p />
@@ -57,7 +57,7 @@ sportsDiv.innerHTML = `
     </div>
     <div class="col-2">
         <div class="card" style="width: 12rem;">
-            <a href="#"><img src="swimmingPlayer.jpg" class="card-img-top cardImg" alt="nadador"></a>
+            <a href="#"><img src="img/five/swimmingPlayer.jpg" class="card-img-top cardImg" alt="nadador"></a>
             <div class="card-body text-center justify-content-center">
             <h5 class="card-title">Natación</h5>
             <p />

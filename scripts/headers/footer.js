@@ -22,8 +22,8 @@ footerDiv.innerHTML = `
             <p>Bosques de Aragon, 57171 Nezahualcóyotl, Méx.</p>
         </div>
         <div class="col-4">
-            <a href="https://www.facebook.com"><img src="facebook.png" width="90" height="90"></a>
-            <a href="https://www.twitter.com"><img src="twitter.png" width="90" height="auto"></a>
+            <a href="https://www.facebook.com"><img src="img/adicional/facebook.png" width="90" height="90"></a>
+            <a href="https://www.twitter.com"><img src="img/adicional/twitter.png" width="90" height="auto"></a>
         </div>
     </div>
 </footer>
