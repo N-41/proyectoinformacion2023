@@ -7,25 +7,25 @@ brandsDiv.innerHTML = `
         <a href="#">
             <img src="img/marcas/puma.png" alt="puma" class="cardImg">
         </a>
-        <b>Puma</b>
+        <label style="font-weight: bold;">Puma</label>
     </div>
     <div class="col-2">
         <a href="#">
             <img src="img/marcas/vans.jpg" alt="vans" class="cardImg">
         </a>
-        <b>Vans</b>
+        <label style="font-weight: bold;">Vans</label>
     </div>
     <div class="col-2">
         <a href="#">
             <img src="img/marcas/adidas.jpg" alt="adidas" class="cardImg">
         </a>
-        <b>Adidas</b>
+        <label style="font-weight: bold;">Adidas</label>
     </div>
     <div class="col-2">
         <a href="marcaNike.html">
             <img src="img/marcas/nike.png" alt="nike" class="cardImg">
         </a>
-        <b>Nike</b>
+        <label style="font-weight: bold;">Nike</label>
     </div>
 </div>
 <p></p>

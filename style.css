@@ -153,6 +153,10 @@ label{
     font-size:1.3rem;
 }
 
+.modal-body label{
+    color:black;
+}
+
 input[type="radio"] {
     opacity: 0;
     position: fixed;
@@ -162,7 +166,6 @@ input[type="radio"] {
 .radio-tool label{
     background: white;
     color: black;
-    border-radius: 1px;
     border-color: black;
     padding: 0rem .7rem;
     border-radius: 2rem;
@@ -182,4 +185,10 @@ input[type="radio"] {
 .radio-toolbar input[type="radio"]:hover + label {
     background: white;
     border-color: linear-gradient(to right, white);
+}
+
+#map {
+  height: 250px; 
+  width: 400px;
+  float: right;
 }
