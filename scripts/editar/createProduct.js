@@ -11,7 +11,7 @@ productCreateDiv.innerHTML = `
 </div>
 <div class="row justify-content-center">
     <div class="col-3">
-        <button class="cardImg" style="font-size:4rem;">+</button>
+        <button disabled class="cardImg" style="font-size:4rem;">+</button>
     </div>
 </div>
 <form action="" method="POST">

@@ -13,7 +13,7 @@ productDiv.innerHTML = `
         <p class="outsideP">Marca</p>
         <p style="text-align:left; font-size:1.2rem">Balon de soccer dorado 58cm</p>
         <p style="text-align:left; font-size:1.5rem">Talla</p>
-        <button class="productSize selected"id="xs">XS</button>
+        <button class="productSize selected" id="xs">XS</button>
         <button class="productSize" id="s">S</button>
         <button class="productSize" id="m">M</button>
         <button class="productSize" id="l">L</button>
