@@ -9,7 +9,7 @@ cartFooterDiv.innerHTML = `
     <div class="col-4">
         <button class="productButton" type="submit">Proceder al pago</button>    
     </div>
-    <div class="col-2 offset-md-3 productPriceYellow">???</div>
+    <div class="col-2 offset-md-3 productPriceYellow">$1240</div>
     <div class="col-2" />
 </div>
 

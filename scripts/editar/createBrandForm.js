@@ -3,7 +3,7 @@ BrandCreateDiv.id = "BrandCreate";
 BrandCreateDiv.innerHTML = `
 <div class="row">
     <div class="col-8 offset-md-2 text-center">
-        <button class="cardImg" style="font-size:8rem; border: 2px black; width:100%; height:200px;">+</button>
+        <button class="cardImg" style="border-radius: 0rem; font-size:8rem; border: 2px black; width:100%; height:200px;">+</button>
     </div>
 </div>
 <br>
@@ -13,12 +13,14 @@ BrandCreateDiv.innerHTML = `
     <div class="col-4 offset-md-1" style="text-align:right;">
         <label for="Marca">Nombre de marca</label><br>
         <label for="Representante">Representante</label><br>
-        <label for="Logo">Logo</label>
+        <label for="Numero">Número de teléfono</label><br>
+        <label for="Email">Correo</label>
     </div>
     <div class="col-4 offset-md-2">
         <input name="Nombre" type="text" style="font-size:1.2rem; margin-bottom:0.4rem;"><br>
         <input name="Representante" type="text" style="font-size:1.2rem; margin-bottom:0.4rem;"><br>
-        <input name="Logo" type="file">
+        <input name="Numero" type="tel" style="font-size:1.2rem; margin-bottom:0.4rem;"><br>
+        <input name="Correo" type="email" style="font-size:1.2rem; margin-bottom:0.4rem;">
     </div>
 </div>
 <div class="row justify-content-center">

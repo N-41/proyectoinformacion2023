@@ -3,7 +3,7 @@ productCreateDiv.id = "productCreate";
 productCreateDiv.innerHTML = `
 <div class="row">
     <div class="col-7 offset-md-1">
-        <p class="outsideP">Editando producto #27</p>
+        <p class="outsideP">Crear producto</p>
     </div>
     <div class="col-3">
         <a href="#"><button class="blackSquareButton">Cancelar</button></a>
@@ -11,7 +11,7 @@ productCreateDiv.innerHTML = `
 </div>
 <div class="row justify-content-center">
     <div class="col-3">
-        <button disabled class="cardImg" style="font-size:4rem;">+</button>
+        <button class="cardImg" style="font-size:4rem;">+</button>
     </div>
 </div>
 <form action="" method="POST">
