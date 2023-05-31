@@ -14,7 +14,7 @@ productEditDiv.innerHTML = `
         <img src="img/productos/goldenBall.jpg" class="d-block w-100">
     </div>
 </div>
-<form action="" method="POST">
+<form action="" method="POST" id="prodForm">
     <div class="row">
         <div class="col-4 offset-md-1" style="text-align:right;">
             <label for="Nombre">Nombre</label><br>
@@ -51,51 +51,8 @@ productEditDiv.innerHTML = `
             <button type="submit" class="blackSquareButton">Guardar</button>
         </div>
     </div>
-    <div class="modal fade" id="ModalDeTallas" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5">Manejar tallas</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <label>Playeras</label><br>
-            <label><input type="checkbox" id="XXL">XXL</label><input type="number" id="XXLt" disabled><br>
-            <label><input type="checkbox"  id="XL">XL</label><input type="number"   id="XLt" disabled><br>
-            <label><input type="checkbox"   id="L">L</label><input type="number"     id="Lt" disabled><br>
-            <label><input type="checkbox"   id="M">M</label><input type="number"     id="Mt" disabled><br>
-            <label><input type="checkbox"   id="S">S</label><input type="number"     id="St" disabled><br>
-            <label><input type="checkbox"  id="XS">XS</label><input type="number"   id="XSt" disabled><br>
-            <label>Shorts y pants</label><br>
-            <label><input type="checkbox" id="28">28</label><input type="number" id="28t" disabled>
-            <label><input type="checkbox" id="29">29</label><input type="number" id="29t" disabled><br>
-            <label><input type="checkbox" id="30">30</label><input type="number" id="30t" disabled>
-            <label><input type="checkbox" id="31">31</label><input type="number" id="31t" disabled><br>
-            <label><input type="checkbox" id="32">32</label><input type="number" id="32t" disabled>
-            <label><input type="checkbox" id="33">33</label><input type="number" id="33t" disabled><br>
-            <label><input type="checkbox" id="34">34</label><input type="number" id="34t" disabled>
-            <label><input type="checkbox" id="35">35</label><input type="number" id="35t" disabled><br>
-            <label>Calzado</label><br>
-            <label><input type="checkbox"   id="5">5</label><input type="number"   id="5t" disabled>
-            <label><input type="checkbox" id="5.5">5.5</label><input type="number" id="5.5t" disabled><br>
-            <label><input type="checkbox"   id="6">6</label><input type="number"   id="6t" disabled>
-            <label><input type="checkbox" id="6.5">6.5</label><input type="number" id="6.5t" disabled><br>
-            <label><input type="checkbox"   id="7">7</label><input type="number"   id="7t" disabled>
-            <label><input type="checkbox" id="7.5">7.5</label><input type="number" id="7.5t" disabled><br>
-            <label><input type="checkbox"   id="8">8</label><input type="number"   id="8t" disabled>
-            <label><input type="checkbox" id="8.5">8.5</label><input type="number" id="8.5t" disabled><br>
-            <label><input type="checkbox"   id="9">9</label><input type="number"   id="9t" disabled>
-            <label><input type="checkbox" id="9.5">9.5</label><input type="number" id="9.5t" disabled><br>
-            <label><input type="checkbox"  id="10">10</label><input type="number"  id="10t" disabled><br>
-            <label>Balones</label>
-            <label><input type="checkbox" id="Estandar">Estándar</label><input type="number" id="Estandart" disabled>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
+    
 </form>
 `;
 document.getElementById("mainBody").appendChild(productEditDiv);
+

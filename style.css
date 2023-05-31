@@ -267,6 +267,12 @@ input[type="radio"] {
     font-size: 1.4rem;
 }
 
+hr{
+    border: none;
+    height: 10px;
+    background-color: black;
+}
+
 .text-left p{
     text-align: left;
     font-weight: bold;

@@ -29,18 +29,12 @@ profileEditDiv.innerHTML = `
             <p class="outsideP">Cartera</p>
             <label for="Número de tarjeta">Número de tarjeta</label><br>
             <input type="number" name="Número de tarjeta" minlength="16" maxlength="16" placeholder="************1234"><br>
-            <label for="CVC">CVC</label><br>
-            <input type="number" name="CVC" minlength="3" maxlength="3" placeholder="***"><br>
-            <label for="Nombre del propietario">Nombre del propietario</label><br>
-            <input type="text" name="Nombre del propietario" placeholder="Alejandro Blanco Figueroa"><br>
-            <label for="Caducidad">Caducidad</label><br>
-            <input type="date" name="Caducidad" placeholder="12/16"><br>
         </div>
     </div>
     <div class="row">
         <div class="col-7 offset-md-1">
-            <label for="Dirección">Dirección</label><br>
-            <input type="text" name="Dirección" placeholder="Bosques de Aragon, 57171 Nezahualcóyotl, Méx.">
+            <label for="Nombre del propietario">Nombre del propietario</label><br>
+            <input type="text" name="Nombre del propietario" placeholder="Alejandro Blanco Figueroa">
         </div>
         <div class="col-3">
             <button typè="submit" class="blackSquareButton">Guardar</button>

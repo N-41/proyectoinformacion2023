@@ -28,7 +28,7 @@ paymentDiv.innerHTML = `
 </div><br>
 <div class="row">
     <div class="col-6 offset-md-3 text-center">
-        <p>Estos campos no se pueden editar después de confirmar el pago, a menos que nos contactes por correo o teléfono para editarlo antes de que se entregue. Si no se añade una dirección acá, se utilizará la de tu perfil</p>
+        <p>Estos campos no se pueden editar después de confirmar el pago, a menos que nos contactes por correo o teléfono para editarlo antes de que se entregue</p>
         <div id="submitDiv"></div>
     </div>
 </div>

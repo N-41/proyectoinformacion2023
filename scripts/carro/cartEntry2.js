@@ -14,12 +14,11 @@ cartEntry2Div.innerHTML = `
             <div class="col-2 offset-md-2 productPriceYellow">$160</div>
         </div>
     </div>
-    <div class="col-2" style="color:white; font-size:1.12rem;">
-        <div class="row"><div class="productPriceYellow col-6">$320</div></div>
-        <input type="number" style="width:4rem;" max="2" min="1" value="2"> / 2
-    </div>
-    <div class="col-1">
-        <button class="productSize" style="width:auto; padding-left:10px; padding-right:10px; height:74px;">Quitar</button>
+    <div class="col-3" style="color:white; font-size:1.12rem;">
+    <br><div class="row">
+        <div class="col-4"><input type="number" style="width:2rem;" max="2" min="1" value="2" style="offset:10px"> / 13</div>
+        <div class="productPriceYellow col-4">$320</div>
+        <div class="col-3"><button class="productSize" style="width:auto; padding-left:10px; padding-right:10px; height:40px;">Quitar</button></div></div>
     </div>
           </div></div>
 </div><br>

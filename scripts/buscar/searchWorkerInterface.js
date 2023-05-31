@@ -7,22 +7,22 @@ browseWorkerDiv.innerHTML = `
             <p class="outsideP">Empleados</p>
         </div>
         <div class="col-2 text-center">
-            <label for="Nombre">Nombre</label><br>
-            <input name="Nombre" type="text" style="font-size:1.2rem; margin-bottom:0.4rem;">
+            <select name="Type" style="font-size:1.2rem; padding: 0.19rem 0 0.19rem;">
+                <option selected>Nombre</option>
+                <option>ID</option>
+            </select>
         </div>
         <div class="col-2 text-center">
-            <label for="ID">ID</label><br>
-            <input name="ID" type="text" style="font-size:1.2rem; margin-bottom:0.4rem;">
+            <input name="Field" type="text" style="font-size:1.2rem;">
         </div>
         <div class="col-2 text-center">
-            <label for="Estatus">Estatus</label><br>
-            <select name="Estatus">
+            <select name="Estatus" style="font-size:1.2rem; padding: 0.19rem 0 0.19rem;">
                 <option selected>Disponible</option>
                 <option>No disponible</option>
             </select><br>
         </div>
         <div class="col-2 text-center">
-            <button type="submit" class="blackSquareButton d-block w-100 text-center" style="padding:1rem 0rem;">Buscar</button>
+            <button type="submit" class="blackSquareButton text-center" style="padding:0.2rem 0.2rem; margin:auto; font-size:1.4rem;">Buscar</button>
         </div>
     </div>
 </form>

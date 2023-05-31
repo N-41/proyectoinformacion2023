@@ -20,23 +20,6 @@ registerDiv.innerHTML = `
             <input type="tel" name="Telefono"><br>
         </div>
     </div><br>
-    <div class="row" style="font-size: 1.7rem; color:white;">
-        <div class="col-8 offset-md-2 text-center">
-            <label for="Direccion">Dirección</label><br><br>
-            <input type="text" name="Direccion" style="width:100%"><br>
-        </div>
-    </div><br><br>
-    <label style="text-align: center; display: block; font-size:1.7rem; font-weight:bold;">Cartera</label>
-    <div class="row">
-        <div class="col-3 offset-md-2 text-center">
-            <label for="Propietario">Propietario</label><br>
-            <input type="text" name="Propietario">
-        </div>
-        <div class="col-3 offset-md-2 text-center">
-            <label for="Tarjeta">Número de tarjeta</label><br>
-            <input type="number" name="Tarjeta">
-        </div>
-    </div><br>
     <div class="row">
         <div class="col-4 offset-md-4 text-center">
         <button type="submit" class="blackSquareButton">Crear cuenta</button><br><br>
